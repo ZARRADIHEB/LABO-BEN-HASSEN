@@ -156,9 +156,6 @@ export default function ContactPage() {
                     <option value="general">
                       {t.contact.subjectOptions.general}
                     </option>
-                    <option value="appointment">
-                      {t.contact.subjectOptions.appointment}
-                    </option>
                     <option value="results">
                       {t.contact.subjectOptions.results}
                     </option>

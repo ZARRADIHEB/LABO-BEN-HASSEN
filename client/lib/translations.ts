@@ -18,10 +18,9 @@ export const translations = {
       heroTitle: "Your Health,",
       heroTitleHighlight: "Our Priority",
       heroDescription:
-        "Professional laboratory services with fast results, secure online access, and convenient appointment booking. Experience healthcare diagnostics reimagined.",
+        "Professional laboratory services with fast results, secure online access, and clear test guidance. Experience healthcare diagnostics reimagined.",
       heroCardTitle: "Advanced Diagnostics",
       heroCardDesc: "State-of-the-art equipment and certified professionals",
-      bookAppointment: "Book Appointment",
       viewResults: "View Results",
       trustedBy: "Trusted by 50,000+ patients",
 
@@ -39,8 +38,8 @@ export const translations = {
         "We combine cutting-edge technology with compassionate care to deliver exceptional laboratory services.",
       features: {
         easyBooking: {
-          title: "Easy Appointment Booking",
-          desc: "Book your lab tests online 24/7. Choose your preferred time and location with just a few clicks.",
+          title: "Easy Test Guidance",
+          desc: "Find the right test and review preparation guidance for a smooth visit.",
         },
         securePortal: {
           title: "Secure Results Portal",
@@ -70,8 +69,8 @@ export const translations = {
         "Getting your lab tests done is simple and convenient with LABO BEN HASSEN.",
       steps: {
         book: {
-          title: "Book Online",
-          desc: "Choose your test, select a convenient time and location, and book your appointment in minutes.",
+          title: "Choose Tests",
+          desc: "Select the test you need and review preparation guidance before your visit.",
         },
         visit: {
           title: "Visit Lab",
@@ -86,8 +85,7 @@ export const translations = {
       // CTA
       readyToStart: "Ready to Get Started?",
       readyToStartDesc:
-        "Book your appointment today and experience the LABO BEN HASSEN difference. Fast, accurate, and secure.",
-      bookAppointmentNow: "Book Appointment Now",
+        "Access your results and experience the LABO BEN HASSEN difference. Fast, accurate, and secure.",
       contactUs: "Contact Us",
 
       // Testimonials
@@ -122,8 +120,6 @@ export const translations = {
       titleHighlight: "Services",
       description:
         "Comprehensive laboratory testing services with state-of-the-art equipment and certified professionals. Fast, accurate, and reliable results you can trust.",
-      bookTest: "Book a Test Now",
-      bookThisTest: "Book This Test",
       whyChoose: "Why Choose Our Services?",
 
       categories: {
@@ -210,8 +206,8 @@ export const translations = {
       },
 
       cta: {
-        title: "Ready to Book Your Test?",
-        desc: "Schedule your appointment online and get fast, accurate results.",
+        title: "Ready to View Your Results?",
+        desc: "Access your results online and download reports anytime.",
       },
     },
 
@@ -272,7 +268,7 @@ export const translations = {
       titleHighlight: "Touch",
       subtitle: "We're Here to Help",
       description:
-        "Have questions? Need assistance? Our friendly team is ready to help you with appointments, test results, or any other inquiries.",
+        "Have questions? Need assistance? Our friendly team is ready to help you with test results or any other inquiries.",
       visitTitle: "Visit Our Laboratory",
       hoursTitle: "Opening Hours",
       hoursWeekdays: "Monday - Friday",
@@ -320,7 +316,6 @@ export const translations = {
       subjectPlaceholder: "Select a subject",
       subjectOptions: {
         general: "General Inquiry",
-        appointment: "Appointment Question",
         results: "Results Inquiry",
         billing: "Billing Question",
         complaint: "Complaint",
@@ -333,10 +328,6 @@ export const translations = {
         {
           q: "How do I access my test results?",
           a: "We will notify you when results are ready. Contact us if you need a copy or have questions.",
-        },
-        {
-          q: "Do I need an appointment?",
-          a: "Walk-ins are welcome, but booking an appointment online helps reduce wait time.",
         },
         {
           q: "What insurance do you accept?",
@@ -355,7 +346,7 @@ export const translations = {
       titleHighlight: "Location",
       subtitle: "Visit Our Laboratory",
       description:
-        "Visit our conveniently located laboratory for walk-in service or scheduled appointments. We offer the full range of testing services.",
+        "Visit our conveniently located laboratory for walk-in service. We offer the full range of testing services.",
       findNearest: "Get Directions",
       allLocations: "Our Location",
       labName: "Laboratoire Ben Hassen",
@@ -397,66 +388,7 @@ export const translations = {
       },
       visitCtaTitle: "Ready to Visit Us?",
       visitCtaDesc:
-        "Book your appointment at any of our convenient locations today.",
-    },
-
-    // Book Page
-    book: {
-      title: "Book an",
-      titleHighlight: "Appointment",
-      subtitle: "Schedule Your Lab Test",
-      description:
-        "Book your appointment in just a few steps. Choose your test, select a convenient time and location, and we'll take care of the rest.",
-      services: [
-        "Complete Blood Count (CBC)",
-        "Lipid Profile",
-        "Thyroid Function Tests",
-        "Liver Function Tests",
-        "HbA1c (Diabetes)",
-        "Complete Urine Analysis",
-        "COVID-19 PCR",
-        "Basic Health Checkup Package",
-      ],
-      locationDisplay:
-        "Ben Hassen Laboratory - 18 January Street, 5000 Monastir",
-      timeSlots: {
-        "08:00 AM": "08:00 AM",
-        "09:00 AM": "09:00 AM",
-        "10:00 AM": "10:00 AM",
-        "11:00 AM": "11:00 AM",
-        "01:00 PM": "01:00 PM",
-        "02:00 PM": "02:00 PM",
-        "03:00 PM": "03:00 PM",
-        "04:00 PM": "04:00 PM",
-      },
-      step: "Step",
-      of: "of",
-      selectService: "Select Service",
-      chooseService: "Choose the test or package you need",
-      selectLocation: "Select Location & Time",
-      chooseDateTime: "Choose your preferred date, time, and location",
-      personalInfo: "Personal Information",
-      provideDetails: "Provide your contact and personal details",
-      reviewConfirm: "Review & Confirm",
-      reviewDetails: "Review your appointment details and confirm",
-      serviceLabel: "Select Test/Package",
-      locationLabel: "Select Location",
-      dateLabel: "Preferred Date",
-      timeLabel: "Preferred Time",
-      firstNameLabel: "First Name",
-      lastNameLabel: "Last Name",
-      emailLabel: "Email Address",
-      phoneLabel: "Phone Number",
-      dobLabel: "Date of Birth",
-      appointmentSummary: "Appointment Summary",
-      service: "Service",
-      location: "Location",
-      dateTime: "Date & Time",
-      patientName: "Patient Name",
-      contactInfo: "Contact Info",
-      bookingNote:
-        "You will receive a confirmation email with your appointment details and preparation instructions.",
-      confirmBooking: "Confirm Booking",
+        "View your results or visit us at any of our convenient locations today.",
     },
 
     // Portal Page
@@ -464,7 +396,7 @@ export const translations = {
       title: "Patient Portal",
       subtitle: "Access Your Health Information",
       description:
-        "Access your test results, manage appointments, and view your medical history securely online.",
+        "Access your test results and view your medical history securely online.",
       secureAccess: "Secure Access",
       secureAccessDesc: "Your data is encrypted and HIPAA compliant",
       viewResults: "View Results",
@@ -518,7 +450,6 @@ export const translations = {
       popular: "Popular",
       bestValue: "Best Value",
       getDirections: "Get Directions",
-      bookHere: "Book Here",
       sendMessage: "Send Message",
       submit: "Submit",
       continue: "Continue",
@@ -532,14 +463,7 @@ export const translations = {
       address: "Address",
       tests: "tests",
       selectLocation: "Select a location",
-      booked: "Booked",
-      at: "at",
-      loadingTimes: "Loading available times...",
       loading: "Loading...",
-      appointmentSuccess: "Appointment booked successfully!",
-      slotTaken:
-        "This time slot is already booked. Please select another time.",
-      bookingFailed: "Failed to book appointment. Please try again.",
     },
 
     footerSections: {
@@ -599,10 +523,9 @@ export const translations = {
       heroTitle: "Votre Santé,",
       heroTitleHighlight: "Notre Priorité",
       heroDescription:
-        "Services de laboratoire professionnels avec résultats rapides, accès en ligne sécurisé et prise de rendez-vous pratique. Découvrez le diagnostic médical réinventé.",
+        "Services de laboratoire professionnels avec résultats rapides, accès en ligne sécurisé et conseils clairs pour les tests. Découvrez le diagnostic médical réinventé.",
       heroCardTitle: "Diagnostics Avancés",
       heroCardDesc: "Équipement de pointe et professionnels certifiés",
-      bookAppointment: "Prendre Rendez-vous",
       viewResults: "Voir les Résultats",
       trustedBy: "Approuvé par 50 000+ patients",
 
@@ -620,8 +543,8 @@ export const translations = {
         "Nous combinons technologie de pointe et soins compatissants pour offrir des services de laboratoire exceptionnels.",
       features: {
         easyBooking: {
-          title: "Réservation Facile",
-          desc: "Réservez vos tests en ligne 24h/24 et 7j/7. Choisissez votre heure et lieu préférés en quelques clics.",
+          title: "Conseils Faciles",
+          desc: "Trouvez le bon test et consultez les consignes de préparation pour une visite fluide.",
         },
         securePortal: {
           title: "Portail Sécurisé",
@@ -651,8 +574,8 @@ export const translations = {
         "Effectuer vos tests de laboratoire est simple et pratique avec MediLab.",
       steps: {
         book: {
-          title: "Réservez en Ligne",
-          desc: "Choisissez votre test, sélectionnez un horaire et lieu pratiques, et réservez en quelques minutes.",
+          title: "Choisir les Tests",
+          desc: "Sélectionnez le test dont vous avez besoin et consultez les consignes de préparation avant votre visite.",
         },
         visit: {
           title: "Visitez le Labo",
@@ -667,8 +590,7 @@ export const translations = {
       // CTA
       readyToStart: "Prêt à Commencer?",
       readyToStartDesc:
-        "Réservez votre rendez-vous aujourd'hui et découvrez la différence LABO BEN HASSEN. Rapide, précis et sécurisé.",
-      bookAppointmentNow: "Réserver Maintenant",
+        "Accédez à vos résultats et découvrez la différence LABO BEN HASSEN. Rapide, précis et sécurisé.",
       contactUs: "Nous Contacter",
 
       // Testimonials
@@ -703,8 +625,6 @@ export const translations = {
       titleHighlight: "Services",
       description:
         "Services de tests de laboratoire complets avec équipement de pointe et professionnels certifiés. Résultats rapides, précis et fiables en qui vous pouvez avoir confiance.",
-      bookTest: "Réserver un Test",
-      bookThisTest: "Réserver ce Test",
       whyChoose: "Pourquoi Choisir Nos Services?",
 
       categories: {
@@ -799,8 +719,8 @@ export const translations = {
       },
 
       cta: {
-        title: "Prêt à Réserver Votre Test?",
-        desc: "Planifiez votre rendez-vous en ligne et obtenez des résultats rapides et précis.",
+        title: "Prêt à Voir Vos Résultats?",
+        desc: "Accédez à vos résultats en ligne et téléchargez les rapports à tout moment.",
       },
     },
 
@@ -861,7 +781,7 @@ export const translations = {
       titleHighlight: "Contacter",
       subtitle: "Nous Sommes Là Pour Vous Aider",
       description:
-        "Vous avez des questions? Besoin d'aide? Notre équipe amicale est prête à vous aider avec les rendez-vous, les résultats des tests ou toute autre question.",
+        "Vous avez des questions? Besoin d'aide? Notre équipe amicale est prête à vous aider avec les résultats des tests ou toute autre question.",
       visitTitle: "Visitez Notre Laboratoire",
       hoursTitle: "Nos Horaires",
       hoursWeekdays: "Lundi - Vendredi",
@@ -909,7 +829,6 @@ export const translations = {
       subjectPlaceholder: "Choisissez un sujet",
       subjectOptions: {
         general: "Demande générale",
-        appointment: "Question sur un rendez-vous",
         results: "Question sur les résultats",
         billing: "Question de facturation",
         complaint: "Réclamation",
@@ -922,10 +841,6 @@ export const translations = {
         {
           q: "Comment acceder a mes resultats?",
           a: "Nous vous informerons lorsque les resultats seront prets. Contactez-nous si vous avez besoin d'une copie.",
-        },
-        {
-          q: "Ai-je besoin d'un rendez-vous?",
-          a: "Les visites sans rendez-vous sont les bienvenues, mais la prise de rendez-vous reduit l'attente.",
         },
         {
           q: "Quelles assurances acceptez-vous?",
@@ -944,7 +859,7 @@ export const translations = {
       titleHighlight: "Emplacement",
       subtitle: "Visitez Notre Laboratoire",
       description:
-        "Visitez notre laboratoire idéalement situé pour un service sans rendez-vous ou sur rendez-vous. Nous offrons la gamme complète de services de tests.",
+        "Visitez notre laboratoire idéalement situé pour un service sans rendez-vous. Nous offrons la gamme complète de services de tests.",
       findNearest: "Itinéraire",
       allLocations: "Notre Emplacement",
       labName: "Laboratoire Ben Hassen",
@@ -986,66 +901,7 @@ export const translations = {
       },
       visitCtaTitle: "Prêt à nous rendre visite ?",
       visitCtaDesc:
-        "Réservez votre rendez-vous dans l'un de nos emplacements pratiques dès aujourd'hui.",
-    },
-
-    // Book Page
-    book: {
-      title: "Prendre un",
-      titleHighlight: "Rendez-vous",
-      subtitle: "Planifiez Votre Test de Laboratoire",
-      description:
-        "Réservez votre rendez-vous en quelques étapes. Choisissez votre test, sélectionnez une heure et un lieu pratiques, et nous nous occupons du reste.",
-      services: [
-        "Hémogramme complet (NFS)",
-        "Profil lipidique",
-        "Tests de fonction thyroïdienne",
-        "Tests de fonction hépatique",
-        "HbA1c (Diabète)",
-        "Analyse d'urine complète",
-        "PCR COVID-19",
-        "Forfait bilan de santé de base",
-      ],
-      locationDisplay:
-        "Laboratoire Ben Hassen - Rue du 18 Janvier, 5000 Monastir",
-      timeSlots: {
-        "08:00 AM": "08:00",
-        "09:00 AM": "09:00",
-        "10:00 AM": "10:00",
-        "11:00 AM": "11:00",
-        "01:00 PM": "13:00",
-        "02:00 PM": "14:00",
-        "03:00 PM": "15:00",
-        "04:00 PM": "16:00",
-      },
-      step: "Étape",
-      of: "sur",
-      selectService: "Sélectionner le Service",
-      chooseService: "Choisissez le test ou le forfait dont vous avez besoin",
-      selectLocation: "Sélectionner l'Emplacement et l'Heure",
-      chooseDateTime: "Choisissez votre date, heure et lieu préférés",
-      personalInfo: "Informations Personnelles",
-      provideDetails: "Fournissez vos coordonnées et informations personnelles",
-      reviewConfirm: "Vérifier et Confirmer",
-      reviewDetails: "Vérifiez les détails de votre rendez-vous et confirmez",
-      serviceLabel: "Sélectionner Test/Forfait",
-      locationLabel: "Sélectionner l'Emplacement",
-      dateLabel: "Date Préférée",
-      timeLabel: "Heure Préférée",
-      firstNameLabel: "Prénom",
-      lastNameLabel: "Nom",
-      emailLabel: "Adresse E-mail",
-      phoneLabel: "Numéro de Téléphone",
-      dobLabel: "Date de Naissance",
-      appointmentSummary: "Résumé du Rendez-vous",
-      service: "Service",
-      location: "Emplacement",
-      dateTime: "Date et Heure",
-      patientName: "Nom du Patient",
-      contactInfo: "Informations de Contact",
-      bookingNote:
-        "Vous recevrez un e-mail de confirmation avec les détails de votre rendez-vous et les instructions de préparation.",
-      confirmBooking: "Confirmer la Réservation",
+        "Consultez vos résultats ou rendez-nous visite dans l'un de nos emplacements pratiques dès aujourd'hui.",
     },
 
     // Portal Page
@@ -1053,7 +909,7 @@ export const translations = {
       title: "Portail Patient",
       subtitle: "Accédez à Vos Informations de Santé",
       description:
-        "Accédez à vos résultats de tests, gérez vos rendez-vous et consultez votre historique médical en ligne de manière sécurisée.",
+        "Accédez à vos résultats de tests et consultez votre historique médical en ligne de manière sécurisée.",
       secureAccess: "Accès Sécurisé",
       secureAccessDesc: "Vos données sont cryptées et conformes HIPAA",
       viewResults: "Voir les Résultats",
@@ -1110,7 +966,6 @@ export const translations = {
       popular: "Populaire",
       bestValue: "Meilleur Rapport",
       getDirections: "Itinéraire",
-      bookHere: "Réserver Ici",
       sendMessage: "Envoyer le Message",
       submit: "Soumettre",
       continue: "Continuer",
@@ -1124,14 +979,7 @@ export const translations = {
       address: "Adresse",
       tests: "tests",
       selectLocation: "Sélectionnez un emplacement",
-      booked: "Réservé",
-      at: "à",
-      loadingTimes: "Chargement des horaires disponibles...",
       loading: "Chargement...",
-      appointmentSuccess: "Rendez-vous réservé avec succès!",
-      slotTaken:
-        "Ce créneau horaire est déjà réservé. Veuillez en sélectionner un autre.",
-      bookingFailed: "Échec de la réservation. Veuillez réessayer.",
     },
 
     footerSections: {
@@ -1191,10 +1039,9 @@ export const translations = {
       heroTitle: "صحتك،",
       heroTitleHighlight: "أولويتنا",
       heroDescription:
-        "خدمات مختبرية احترافية مع نتائج سريعة، وصول آمن عبر الإنترنت، وحجز مواعيد مريح. اختبر التشخيص الطبي المُعاد تصوره.",
+        "خدمات مختبرية احترافية مع نتائج سريعة، وصول آمن عبر الإنترنت، وإرشادات واضحة للفحوصات. اختبر التشخيص الطبي المُعاد تصوره.",
       heroCardTitle: "تشخيصات متقدمة",
       heroCardDesc: "معدات حديثة ومحترفون معتمدون",
-      bookAppointment: "حجز موعد",
       viewResults: "عرض النتائج",
       trustedBy: "موثوق به من قبل أكثر من 50,000 مريض",
 
@@ -1212,8 +1059,8 @@ export const translations = {
         "نجمع بين التكنولوجيا المتطورة والرعاية الرحيمة لتقديم خدمات مختبرية استثنائية.",
       features: {
         easyBooking: {
-          title: "حجز سهل للمواعيد",
-          desc: "احجز فحوصاتك المختبرية عبر الإنترنت على مدار الساعة. اختر الوقت والموقع المفضلين لديك بنقرات قليلة.",
+          title: "إرشادات سهلة",
+          desc: "اختر الفحص المناسب واطلع على تعليمات التحضير لزيارة سلسة.",
         },
         securePortal: {
           title: "بوابة نتائج آمنة",
@@ -1241,8 +1088,8 @@ export const translations = {
       howItWorksDesc: "إجراء فحوصاتك المختبرية بسيط ومريح مع MediLab.",
       steps: {
         book: {
-          title: "احجز عبر الإنترنت",
-          desc: "اختر فحصك، حدد وقتًا وموقعًا مناسبين، واحجز موعدك في دقائق.",
+          title: "اختر الفحوصات",
+          desc: "حدد الفحص الذي تحتاجه واطلع على تعليمات التحضير قبل زيارتك.",
         },
         visit: {
           title: "زيارة المختبر",
@@ -1257,8 +1104,7 @@ export const translations = {
       // CTA
       readyToStart: "هل أنت مستعد للبدء؟",
       readyToStartDesc:
-        "احجز موعدك اليوم واختبر فرق LABO BEN HASSEN. سريع ودقيق وآمن.",
-      bookAppointmentNow: "احجز موعدًا الآن",
+        "اطلع على نتائجك واختبر فرق LABO BEN HASSEN. سريع ودقيق وآمن.",
       contactUs: "اتصل بنا",
 
       // Testimonials
@@ -1292,8 +1138,6 @@ export const translations = {
       titleHighlight: "خدماتنا",
       description:
         "خدمات فحوصات مختبرية شاملة مع معدات حديثة ومحترفين معتمدين. نتائج سريعة ودقيقة وموثوقة يمكنك الوثوق بها.",
-      bookTest: "احجز فحصًا الآن",
-      bookThisTest: "احجز هذا الفحص",
       whyChoose: "لماذا تختار خدماتنا؟",
 
       categories: {
@@ -1376,8 +1220,8 @@ export const translations = {
       },
 
       cta: {
-        title: "هل أنت مستعد لحجز فحصك؟",
-        desc: "حدد موعدك عبر الإنترنت واحصل على نتائج سريعة ودقيقة.",
+        title: "هل أنت مستعد لعرض نتائجك؟",
+        desc: "اطلع على نتائجك عبر الإنترنت وقم بتنزيل التقارير في أي وقت.",
       },
     },
 
@@ -1437,7 +1281,7 @@ export const translations = {
       titleHighlight: "معنا",
       subtitle: "نحن هنا لمساعدتك",
       description:
-        "هل لديك أسئلة؟ هل تحتاج إلى مساعدة؟ فريقنا الودود مستعد لمساعدتك في المواعيد أو نتائج الفحوصات أو أي استفسارات أخرى.",
+        "هل لديك أسئلة؟ هل تحتاج إلى مساعدة؟ فريقنا الودود مستعد لمساعدتك في نتائج الفحوصات أو أي استفسارات أخرى.",
       visitTitle: "زوروا مختبرنا",
       hoursTitle: "مواعيد العمل",
       hoursWeekdays: "الاثنين - الجمعة",
@@ -1484,7 +1328,6 @@ export const translations = {
       subjectPlaceholder: "اختر موضوعًا",
       subjectOptions: {
         general: "استفسار عام",
-        appointment: "سؤال حول موعد",
         results: "استفسار حول النتائج",
         billing: "سؤال حول الفواتير",
         complaint: "شكوى",
@@ -1497,10 +1340,6 @@ export const translations = {
         {
           q: "كيف يمكنني الحصول على نتائج التحاليل؟",
           a: "سنبلغك عند جاهزية النتائج. تواصل معنا إذا كنت بحاجة إلى نسخة أو استفسار.",
-        },
-        {
-          q: "هل أحتاج إلى موعد؟",
-          a: "الزيارات دون موعد مرحب بها، لكن الحجز المسبق يقلل وقت الانتظار.",
         },
         {
           q: "ما شركات التأمين التي تقبلونها؟",
@@ -1519,7 +1358,7 @@ export const translations = {
       titleHighlight: "موقعنا",
       subtitle: "قم بزيارة مختبرنا",
       description:
-        "قم بزيارة مختبرنا الموجود في موقع مريح للخدمة دون موعد أو المواعيد المجدولة. نقدم مجموعة كاملة من خدمات الفحوصات.",
+        "قم بزيارة مختبرنا الموجود في موقع مريح للخدمة دون موعد. نقدم مجموعة كاملة من خدمات الفحوصات.",
       findNearest: "الحصول على الاتجاهات",
       allLocations: "موقعنا",
       labName: "مختبر بن حسن",
@@ -1560,65 +1399,7 @@ export const translations = {
         },
       },
       visitCtaTitle: "هل أنت مستعد لزيارتنا؟",
-      visitCtaDesc: "احجز موعدك في أي من مواقعنا المريحة اليوم.",
-    },
-
-    // Book Page
-    book: {
-      title: "احجز",
-      titleHighlight: "موعدًا",
-      subtitle: "حدد موعد فحصك المختبري",
-      description:
-        "احجز موعدك في بضع خطوات فقط. اختر فحصك، حدد وقتًا وموقعًا مناسبين، وسنهتم بالباقي.",
-      services: [
-        "تعداد دم كامل (CBC)",
-        "تحليل الدهون",
-        "اختبارات وظائف الغدة الدرقية",
-        "اختبارات وظائف الكبد",
-        "HbA1c (السكري)",
-        "تحليل بول كامل",
-        "PCR كوفيد-19",
-        "باقة فحص صحي أساسي",
-      ],
-      locationDisplay: "مختبر بن حسن - شارع 18 جانفي، 5000 المنستير",
-      timeSlots: {
-        "08:00 AM": "08:00",
-        "09:00 AM": "09:00",
-        "10:00 AM": "10:00",
-        "11:00 AM": "11:00",
-        "01:00 PM": "13:00",
-        "02:00 PM": "14:00",
-        "03:00 PM": "15:00",
-        "04:00 PM": "16:00",
-      },
-      step: "خطوة",
-      of: "من",
-      selectService: "اختر الخدمة",
-      chooseService: "اختر الفحص أو الباقة التي تحتاجها",
-      selectLocation: "اختر الموقع والوقت",
-      chooseDateTime: "اختر التاريخ والوقت والموقع المفضل لديك",
-      personalInfo: "المعلومات الشخصية",
-      provideDetails: "قدم معلومات الاتصال والتفاصيل الشخصية",
-      reviewConfirm: "مراجعة وتأكيد",
-      reviewDetails: "راجع تفاصيل موعدك وأكده",
-      serviceLabel: "اختر الفحص/الباقة",
-      locationLabel: "اختر الموقع",
-      dateLabel: "التاريخ المفضل",
-      timeLabel: "الوقت المفضل",
-      firstNameLabel: "الاسم الأول",
-      lastNameLabel: "اسم العائلة",
-      emailLabel: "عنوان البريد الإلكتروني",
-      phoneLabel: "رقم الهاتف",
-      dobLabel: "تاريخ الميلاد",
-      appointmentSummary: "ملخص الموعد",
-      service: "الخدمة",
-      location: "الموقع",
-      dateTime: "التاريخ والوقت",
-      patientName: "اسم المريض",
-      contactInfo: "معلومات الاتصال",
-      bookingNote:
-        "ستتلقى بريدًا إلكترونيًا للتأكيد مع تفاصيل موعدك وتعليمات التحضير.",
-      confirmBooking: "تأكيد الحجز",
+      visitCtaDesc: "اطلع على نتائجك أو زر أحد مواقعنا المريحة اليوم.",
     },
 
     // Portal Page
@@ -1626,7 +1407,7 @@ export const translations = {
       title: "بوابة المرضى",
       subtitle: "الوصول إلى معلوماتك الصحية",
       description:
-        "الوصول إلى نتائج الفحوصات الخاصة بك، إدارة المواعيد، وعرض تاريخك الطبي بشكل آمن عبر الإنترنت.",
+        "الوصول إلى نتائج الفحوصات الخاصة بك وعرض تاريخك الطبي بشكل آمن عبر الإنترنت.",
       secureAccess: "وصول آمن",
       secureAccessDesc: "بياناتك مشفرة ومتوافقة مع HIPAA",
       viewResults: "عرض النتائج",
@@ -1680,7 +1461,6 @@ export const translations = {
       popular: "شائع",
       bestValue: "أفضل قيمة",
       getDirections: "الحصول على الاتجاهات",
-      bookHere: "احجز هنا",
       sendMessage: "إرسال رسالة",
       submit: "إرسال",
       continue: "متابعة",
@@ -1694,13 +1474,7 @@ export const translations = {
       address: "العنوان",
       tests: "فحص",
       selectLocation: "اختر موقعًا",
-      booked: "محجوز",
-      at: "في",
-      loadingTimes: "جارٍ تحميل الأوقات المتاحة...",
       loading: "جارٍ التحميل...",
-      appointmentSuccess: "تم حجز الموعد بنجاح!",
-      slotTaken: "هذا الوقت محجوز بالفعل. يرجى اختيار وقت آخر.",
-      bookingFailed: "فشل في حجز الموعد. يرجى المحاولة مرة أخرى.",
     },
 
     footerSections: {
