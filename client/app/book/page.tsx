@@ -183,7 +183,7 @@ export default function BookAppointmentPage() {
                   {t.book.selectService}
                 </h2>
                 <div className="space-y-3">
-                  {services.map((service) => (
+                  {services.map((service: string) => (
                     <label
                       key={service}
                       className={`block p-4 border-2 rounded-lg cursor-pointer transition-all ${
